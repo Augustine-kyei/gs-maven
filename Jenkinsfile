@@ -6,7 +6,7 @@ pipeline{
         stage('Checkout'){
             agent any
             steps{
-                git 'https://github.com/devops-trainer/DevOpsClassCodes.git'
+                git 'https://github.com/Augustine-kyei/gs-maven.git '
             }
         }
         stage('Compile'){
